@@ -1,0 +1,11 @@
+{
+    "connection": {
+        "server": "servidor",
+        "userName": "username",
+        "password": "password",
+        "options": {
+            "encrypt": true,
+            "database": "database"
+        }
+    }
+}
