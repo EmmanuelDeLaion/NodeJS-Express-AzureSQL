@@ -1,11 +1,11 @@
 {
     "connection": {
-        "server": "servidor",
-        "userName": "username",
-        "password": "password",
+        "server": "servidortienda.database.windows.net",
+        "userName": "Administrador",
+        "password": "Admin1234",
         "options": {
             "encrypt": true,
-            "database": "database"
+            "database": "BDTienda"
         }
     }
 }
