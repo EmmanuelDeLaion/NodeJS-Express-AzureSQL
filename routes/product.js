@@ -5,8 +5,6 @@ var TYPES = require('tedious').TYPES;
 router.get('/', function(req, res) {
     req.sql("SELECT * FROM Product FOR JSON PATH")
         .into(res, '[]');
-
-
 });
 
 
